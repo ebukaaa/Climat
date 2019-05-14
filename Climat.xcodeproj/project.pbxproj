@@ -55,13 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				716641D7228B35A400500934 /* AppDelegate.swift */,
-				716641D9228B35A400500934 /* ViewController.swift */,
-				716641DB228B35A400500934 /* Main.storyboard */,
+				716641EB228B361000500934 /* Model */,
+				716641EA228B360600500934 /* Controller */,
+				716641E9228B35F400500934 /* View */,
 				716641DE228B35A500500934 /* Assets.xcassets */,
-				716641E0228B35A500500934 /* LaunchScreen.storyboard */,
 				716641E3228B35A500500934 /* Info.plist */,
 			);
 			path = Climat;
+			sourceTree = "<group>";
+		};
+		716641E9228B35F400500934 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				716641DB228B35A400500934 /* Main.storyboard */,
+				716641E0228B35A500500934 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		716641EA228B360600500934 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				716641D9228B35A400500934 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		716641EB228B361000500934 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
