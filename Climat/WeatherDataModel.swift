@@ -10,7 +10,7 @@ import UIKit
 
 class WeatherDataModel {
 
-    //Declare your model variables here
+    //Declare your model variables here 
     var temperature: Int = 0
     var condition: Int = 0
     var city: String = ""
